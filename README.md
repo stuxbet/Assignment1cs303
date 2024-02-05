@@ -12,3 +12,5 @@ void AddThatToEndOfArray(int arrayToModify[], int that, int &counter);
 void modifyArrayAtIndex(int arr[], int index, bool remove, int counter);
 
 all of them are mostly self explanitory, ReadTheDamnFile returns the elements of the array that it added for an easy way to keep track of that. also the main just shows off some functionality nothing to really note there.
+
+to access program navigate to master branch
