@@ -2,6 +2,7 @@
 #include "functions.h"
 int main()
 {
+	//this main doesnt do anything but shows some functionality
 	const int MAX_VALUES = 200;
 	int values[MAX_VALUES];
 	int counter = 0;
