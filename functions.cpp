@@ -1,6 +1,7 @@
 #include "functions.h"
 
 int ReadTheDamnFile(int numList[], int counter){
+    // uses string stream and getline to access input file and separate values
     ifstream inputFile("A1input.txt");
 
     if(!inputFile.is_open()) {
@@ -12,6 +13,7 @@ int ReadTheDamnFile(int numList[], int counter){
 
         int value;
         while (iss >> value) {
+            
             numList[counter++] = value;
         }
     }
